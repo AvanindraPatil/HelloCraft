@@ -1,0 +1,7 @@
+UE4SS experimental-latest build v3.0.1-1152-ge3ba1016 (https://github.com/UE4SS-RE/RE-UE4SS), MIT licence (ue4ss/LICENSE).
+
+This exact build is the one Hello Neighbor (Unreal Engine 4.20) was tested with; the plain 3.0.1 release was not.
+Files are the default UE4SS distribution; only these edits were made:
+  ue4ss/UE4SS-settings.ini   EnableHotReloadSystem = 0, HotReloadKey = F12 (a hot reload freezes the game while the mod runs)
+                             ConsoleEnabled = 0 (no UE4SS console window next to the game; set 1 when debugging)
+  ue4ss/Mods/mods.json       BPModLoaderMod off (it is for blueprint mods and fails on this game: no Content\Paks)

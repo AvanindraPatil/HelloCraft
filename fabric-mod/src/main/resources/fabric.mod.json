@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "hnmc",
+	"version": "${version}",
+	"name": "Hello Neighbor Link",
+	"description": "Hidden Minecraft side of the Minecraft-in-Hello-Neighbor project. Shares player state and block events with Hello Neighbor over shared memory.",
+	"authors": [
+		"Gaming with ACK"
+	],
+	"license": "MIT",
+	"icon": "assets/hnmc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.hnmc.HnMc"
+		],
+		"client": [
+			"dev.hnmc.client.HnMcClient"
+		]
+	},
+	"mixins": [
+		"hnmc.mixins.json",
+		{
+			"config": "hnmc.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

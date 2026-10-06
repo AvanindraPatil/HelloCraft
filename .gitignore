@@ -1,0 +1,16 @@
+# build output and generated files
+release/
+build/
+.gradle/
+node_modules/
+fabric-mod/run/
+*.log
+*.obj
+*.exp
+*.lib
+*.pdb
+
+# local settings and development leftovers
+settings.ini
+installed.txt
+notes/launch-failures/

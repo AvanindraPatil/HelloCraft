@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"package": "dev.hnmc.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"DefaultPlayerSkinMixin",
+		"FirstPersonHandsMixin",
+		"FramerateLimitTrackerMixin",
+		"InputConstantsMixin",
+		"ItemInHandLayerMixin",
+		"LevelRendererMixin",
+		"MinecraftAttackMixin",
+		"MinecraftMixin",
+		"MinecraftPickMixin",
+		"MinecraftUseMixin",
+		"RenderSetupAccessor",
+		"RenderTypeAccessor",
+		"TextureBindingAccessor",
+		"WindowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

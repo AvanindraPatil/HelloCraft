@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "dev.hnmc.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ArrowMixin",
+		"ExplosionMixin",
+		"LevelMixin",
+		"MobSunMixin",
+		"MobTargetMixin",
+		"PlayerNameMixin",
+		"ServerGamePacketListenerMixin",
+		"ServerPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

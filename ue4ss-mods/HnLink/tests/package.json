@@ -1,0 +1,12 @@
+{
+  "name": "hnlink-tests",
+  "private": true,
+  "description": "Offline tests for HnLink's main.lua: a real Lua compiler (fengari) runs pieces of the script against mocks of the game.",
+  "scripts": {
+    "test": "node run_all.js"
+  },
+  "dependencies": {
+    "fengari": "^0.1.5",
+    "luaparse": "^0.3.1"
+  }
+}
