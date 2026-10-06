@@ -43,8 +43,7 @@ Minecraft and Java through Prism, so it takes a few minutes.
 **Safety.** The mod has no network code and never touches your Minecraft login (Prism handles that); its Minecraft
 world is private and single-player. It changes only Hello Neighbor's folder (UE4SS, the two mods, a few small files)
 and adds one Prism instance; replaced files are kept as `*.before-hnmc`, and `Uninstall.bat` removes it all. Antivirus
-programs may warn about it, because it hooks the game's graphics and UE4SS loads as `dwmapi.dll`: the source is here,
-and each release lists the zip's SHA-256 checksum so you can verify your download.
+programs may warn about it, because it hooks the game's graphics and UE4SS loads as `dwmapi.dll`: the source is here.
 
 ## Play
 
