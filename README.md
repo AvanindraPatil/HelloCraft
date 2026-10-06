@@ -1,6 +1,7 @@
 # Minecraft in Hello Neighbor
 
 Everything we love about Minecraft right inside Hello Neighbor.
+<img width="2560" height="1440" alt="Screenshot (2855)" src="https://github.com/user-attachments/assets/e97a3901-99c0-4628-9799-35ae1db6eb09" />
 
 A real Minecraft client runs hidden in the background. Hello Neighbor shows what it renders and tells it where the
 walls are; Minecraft tells Hello Neighbor where the player is and what they do. The idea comes from
