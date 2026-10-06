@@ -1,34 +1,32 @@
 # Minecraft in Hello Neighbor
 
-Play **Hello Neighbor** (2017) as a **Minecraft** player. You walk, jump, sprint, swim and fly with Minecraft's own
-physics, you see Minecraft's hand, items and HUD, and you can mine, build, fight and blow things up — all inside Hello
-Neighbor's house, with the neighbour still hunting you.
+Everything we love about Minecraft right inside Hello Neighbor.
 
 A real Minecraft client runs hidden in the background. Hello Neighbor shows what it renders and tells it where the
 walls are; Minecraft tells Hello Neighbor where the player is and what they do. The idea comes from
 [SkyCraft](https://github.com/chasmlol/SkyCraft) (Minecraft inside Skyrim).
 
 > Unofficial fan project. Not affiliated with tinyBuild, Dynamic Pixels, Mojang or Microsoft. You need your own copy of
-> Hello Neighbor; no game files are included here.
+> Hello Neighbor and a Microsoft account with Minecraft; no game files are included here.
 
 ## What works
 
-- **Minecraft movement** in every act: walking, sprinting, sneaking, swimming, elytra flight, ender pearls.
+- **Minecraft movement** in every act: walking, sprinting, sneaking, elytra flight, ender pearls.
   Hello Neighbor's walls, floors, furniture, props and glass are solid for Minecraft.
 - **Minecraft rendering**: your hand and held item, the hotbar, hearts and hunger, third person (F5) with the Minecraft
   player model, blocks you place, mobs, dropped items, particles — drawn in Hello Neighbor's 3D scene.
 - **Building and breaking**: place and mine blocks on Hello Neighbor's surfaces; water and lava flow on its floors.
 - **Hello Neighbor's own game**: doors, switches, picking up and throwing its objects, its inventory (shown as Minecraft
-  items), ladders, hiding in cupboards and under beds, windows, being caught, the Act 3 "press Space" escapes.
-- **Fighting**: hit the neighbour with swords and arrows, knock him down with TNT, set Minecraft mobs on him. Hits
-  break windows and knock his objects around.
+  items), ladders, hiding in cupboards and under beds, being caught, the Act 3 "press Space" escapes.
+- **Fighting**: hit the neighbour with minecraft items and arrows that will knock him down, TNT also kind of knocks him down and can make him fly a bit, send Minecraft mobs on him. Hits
+  break windows and knock objects around.
 - **Deaths**: a Minecraft death keeps your inventory and puts you at Hello Neighbor's own respawn point for the level.
 
 ## Requirements
 
 - Windows 10 or 11
 - **Hello Neighbor** on Steam
-- **Minecraft: Java Edition** (your own account)
+- **Minecraft: Java Edition** (Microsoft account with Minecraft)
 - [**Prism Launcher**](https://prismlauncher.org/) (free; it sets up Java and Fabric for you)
 
 ## Install
@@ -81,7 +79,8 @@ own settings use for pick up, use and throw, which the mod reads from the game, 
 - Held Hello Neighbor items still lag slightly behind the hand and vary in size.
 - The world is only known around you: geometry is scanned as you go (a second after a big teleport Hello Neighbor
   holds the player while the new area is scanned).
-
+- You might just go in the void, I recommend pressing f4 and restart from menu. Then press f4 again once you are on the floor to get the minecraft character back.
+  
 ## For developers
 
 To build the mod from source, change it or find out how it works, see [docs/DEVELOPING.md](docs/DEVELOPING.md) and
