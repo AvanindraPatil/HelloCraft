@@ -2,7 +2,7 @@
 
 Hello Neighbor is an Unreal Engine 4.20 game; Minecraft is a Java game. Neither can load the other, so the mod runs
 both and connects them. Minecraft does the *player* (movement, physics, items, blocks, mobs, HUD); Hello Neighbor does
-the *world* (the house, the neighbour, the story) and shows everything on screen.
+the *world* (the house, the neighbour) and shows everything on screen.
 
 ```
  Hello Neighbor process                            hn_bridge.exe              Minecraft process (hidden window)
