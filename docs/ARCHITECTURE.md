@@ -101,7 +101,7 @@ Minecraft runs in an empty void world. Hello Neighbor's walls and floors only ex
   the player; every frame HnLink teleports Hello Neighbor's pawn so its camera sits on Minecraft's eye. The pawn's own
   movement is off and its capsule passes through geometry (it still overlaps, so ladders, doors, catching and triggers
   work). Its body is kept hidden.
-- **Hello Neighbor moves the player** (`teleportSeq`): caught, a cutscene, a checkpoint, a respawn. HnLink notices the
+- **Hello Neighbor moves the player** (`teleportSeq`): cutscene, a checkpoint, a respawn. HnLink notices the
   pawn far from where it put it and Minecraft follows. After a move of more than 10 blocks, Hello Neighbor holds the
   player until the new area is scanned, so Minecraft never starts in an unscanned void.
 - **Hand-offs**: in the player states Hello Neighbor must handle itself (`EHumanState`: ladder, cupboard, under a bed,
