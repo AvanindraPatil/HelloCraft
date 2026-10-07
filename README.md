@@ -80,6 +80,10 @@ own settings use for pick up, use and throw, which the mod reads from the game, 
 - The world is only known around you: geometry is scanned as you go (a second after a big teleport Hello Neighbor
   holds the player while the new area is scanned).
 - You might just go in the void, I recommend pressing f4 and restart from menu. Then press f4 again once you are on the floor to get the minecraft character back.
+- Act 1 basement chase sequence does not work properly and you might be stuck in an endless loop. Recommended to directly go to Act 2 and skip the final chase in Act 1 Basement.
+- Ender pearls can sometimes go in the void.
+- Elytra flying can be a bit glitchy
+- Act Finale Boss Fight cannot be completed in Minecraft movement, you need to press F4 and let Hello Neighbor move the player to complete it.
   
 ## For developers
 
