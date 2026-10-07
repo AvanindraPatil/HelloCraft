@@ -10,8 +10,8 @@ the *world* (the house, the neighbour) and shows everything on screen.
  │ UE4SS                            │   pipes     │ owns the     │  memory    │ Fabric mod "hnmc"            │
  │  HnLink (Lua)  game logic ◄──────┼─text lines─►│ main mapping │◄──────────►│  HnWorld / HnBlocks / ...    │
  │  HnGfx  (C++ DLL) rendering,     │             └──────────────┘            │                              │
- │         input  ◄─────────────────┼──────── overlay mapping (frames, input) ─┤  FrameExporter, InputBridge  │
- │                ◄─────────────────┼──────── world mapping (blocks, models) ──┤  HnWorldMesh, HnEntities     │
+ │         input  ◄─────────────────┼──────── overlay mapping (frames, input)─┤  FrameExporter, InputBridge  │
+ │                ◄─────────────────┼──────── world mapping (blocks, models)──┤  HnWorldMesh, HnEntities     │
  └──────────────────────────────────┘                                         └──────────────────────────────┘
 ```
 
